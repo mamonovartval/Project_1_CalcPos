@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons8-position-64.png</file>
+        <file>icons8-download-48.png</file>
+        <file>icons8-upload-48.png</file>
+        <file>icons8-copy-48.png</file>
+    </qresource>
+</RCC>

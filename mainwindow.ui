@@ -1,0 +1,2858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1200</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1920</width>
+    <height>1200</height>
+   </size>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>186</red>
+        <green>189</green>
+        <blue>182</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>220</red>
+        <green>222</green>
+        <blue>218</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>93</red>
+        <green>94</green>
+        <blue>91</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>124</red>
+        <green>126</green>
+        <blue>121</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>186</red>
+        <green>189</green>
+        <blue>182</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>220</red>
+        <green>222</green>
+        <blue>218</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="128">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>186</red>
+        <green>189</green>
+        <blue>182</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>220</red>
+        <green>222</green>
+        <blue>218</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>93</red>
+        <green>94</green>
+        <blue>91</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>124</red>
+        <green>126</green>
+        <blue>121</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>186</red>
+        <green>189</green>
+        <blue>182</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>220</red>
+        <green>222</green>
+        <blue>218</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="128">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>93</red>
+        <green>94</green>
+        <blue>91</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>186</red>
+        <green>189</green>
+        <blue>182</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>220</red>
+        <green>222</green>
+        <blue>218</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>93</red>
+        <green>94</green>
+        <blue>91</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>124</red>
+        <green>126</green>
+        <blue>121</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>93</red>
+        <green>94</green>
+        <blue>91</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>93</red>
+        <green>94</green>
+        <blue>91</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>186</red>
+        <green>189</green>
+        <blue>182</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>186</red>
+        <green>189</green>
+        <blue>182</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>186</red>
+        <green>189</green>
+        <blue>182</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="128">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>FFX App</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/icons/icons8-position-64.png</normaloff>:/icons/icons8-position-64.png</iconset>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonTextBesideIcon</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="toolTipDuration">
+       <number>-1</number>
+      </property>
+      <property name="currentIndex">
+       <number>4</number>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>48</width>
+        <height>48</height>
+       </size>
+      </property>
+      <widget class="QWidget" name="product_info">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="title">
+        <string>Product Info.</string>
+       </attribute>
+       <widget class="QToolButton" name="m_pcmdCalcProdSize">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Calc</string>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>70</y>
+          <width>311</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Product size</string>
+        </property>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>33</y>
+           <width>111</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>O.D. of Product</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="cb_Od_product">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>161</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="cb_wall_thickness">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>67</y>
+           <width>161</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_18">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>70</y>
+           <width>111</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Wall thickness</string>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="tbl_product_size">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>140</y>
+           <width>286</width>
+           <height>83</height>
+          </rect>
+         </property>
+         <row>
+          <property name="text">
+           <string>O.D. at SQ</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Strip width</string>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>input</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>default</string>
+          </property>
+         </column>
+         <item row="0" column="1">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="flags">
+           <set>NoItemFlags</set>
+          </property>
+         </item>
+         <item row="1" column="1">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="flags">
+           <set>NoItemFlags</set>
+          </property>
+         </item>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>70</y>
+          <width>311</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Top roll press down</string>
+        </property>
+        <widget class="QRadioButton" name="rb_Original">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>30</y>
+           <width>112</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Original</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="rb_Thickness">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>60</y>
+           <width>231</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Thickness * 10% (BD1 to RVS)</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="rb_IndivAdj">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>90</y>
+           <width>171</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Individual adjustment</string>
+         </property>
+        </widget>
+        <widget class="QTableView" name="tv_TopRollPressAdj">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>120</y>
+           <width>231</width>
+           <height>141</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QToolButton" name="m_pcmdHomePosition">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Home</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="file">
+       <attribute name="title">
+        <string>File</string>
+       </attribute>
+       <widget class="QToolButton" name="m_pcmdLoad">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Load</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="m_pcmdSave">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Save</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="m_pcmdDelete">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Delete</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="m_pcmdRestore">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Restore</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="m_pcmdRegeneration">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Refresh</string>
+        </property>
+       </widget>
+       <widget class="QTableView" name="tv_DB">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>69</y>
+          <width>1080</width>
+          <height>1081</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="diameter">
+       <attribute name="title">
+        <string>Diameter</string>
+       </attribute>
+       <widget class="QTabWidget" name="tab_roll_diam">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>3</y>
+          <width>766</width>
+          <height>964</height>
+         </rect>
+        </property>
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <widget class="QWidget" name="tab_ffx_diam">
+         <attribute name="title">
+          <string>FFX Roll Diameter</string>
+         </attribute>
+         <widget class="QTableView" name="tv_ffx_diam">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>70</y>
+            <width>761</width>
+            <height>861</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QToolButton" name="tb_EnDiamFFX">
+          <property name="geometry">
+           <rect>
+            <x>3</x>
+            <y>3</y>
+            <width>65</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>Entry
+diameter</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+          <property name="toolButtonStyle">
+           <enum>Qt::ToolButtonTextUnderIcon</enum>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_fpsq_diam">
+         <attribute name="title">
+          <string>FPSQ Roll Diameter</string>
+         </attribute>
+         <widget class="QTableView" name="tv_fpsq_diam">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>70</y>
+            <width>761</width>
+            <height>861</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="cb_Od_FpSq">
+          <property name="geometry">
+           <rect>
+            <x>200</x>
+            <y>20</y>
+            <width>161</width>
+            <height>30</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_25">
+          <property name="geometry">
+           <rect>
+            <x>90</x>
+            <y>20</y>
+            <width>111</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select
+diameter tube:</string>
+          </property>
+         </widget>
+         <widget class="QToolButton" name="tb_EnDiamFpSq">
+          <property name="geometry">
+           <rect>
+            <x>3</x>
+            <y>3</y>
+            <width>65</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>Entry
+diameter</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+          <property name="toolButtonStyle">
+           <enum>Qt::ToolButtonTextUnderIcon</enum>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_pos_data">
+       <attribute name="title">
+        <string>Position</string>
+       </attribute>
+       <attribute name="toolTip">
+        <string>Position roll data</string>
+       </attribute>
+       <widget class="QTabWidget" name="tab_data">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>70</y>
+          <width>1117</width>
+          <height>831</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <kerning>true</kerning>
+         </font>
+        </property>
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <property name="movable">
+         <bool>false</bool>
+        </property>
+        <widget class="QWidget" name="tab_ffx">
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <attribute name="title">
+          <string>                                                                           FFX                                                                           </string>
+         </attribute>
+         <widget class="QTableView" name="tv_PR">
+          <property name="geometry">
+           <rect>
+            <x>720</x>
+            <y>20</y>
+            <width>350</width>
+            <height>85</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_EG">
+          <property name="geometry">
+           <rect>
+            <x>370</x>
+            <y>20</y>
+            <width>350</width>
+            <height>114</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_FGS">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>350</width>
+            <height>85</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_TT">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>130</y>
+            <width>350</width>
+            <height>85</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_BD1_Top">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>250</y>
+            <width>350</width>
+            <height>145</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_BD2_Top">
+          <property name="geometry">
+           <rect>
+            <x>370</x>
+            <y>310</y>
+            <width>210</width>
+            <height>85</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_BD3_Top">
+          <property name="geometry">
+           <rect>
+            <x>580</x>
+            <y>310</y>
+            <width>210</width>
+            <height>85</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_BD4_Top">
+          <property name="geometry">
+           <rect>
+            <x>790</x>
+            <y>310</y>
+            <width>210</width>
+            <height>85</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_BD1_Bottom">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>390</y>
+            <width>350</width>
+            <height>85</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_BD3_Bottom">
+          <property name="geometry">
+           <rect>
+            <x>580</x>
+            <y>390</y>
+            <width>210</width>
+            <height>85</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_BD4_Bottom">
+          <property name="geometry">
+           <rect>
+            <x>790</x>
+            <y>390</y>
+            <width>210</width>
+            <height>85</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_BD2_Bottom">
+          <property name="geometry">
+           <rect>
+            <x>370</x>
+            <y>390</y>
+            <width>210</width>
+            <height>85</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_RVS">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>500</y>
+            <width>350</width>
+            <height>145</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_CL1">
+          <property name="geometry">
+           <rect>
+            <x>370</x>
+            <y>500</y>
+            <width>350</width>
+            <height>85</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_BD2">
+          <property name="geometry">
+           <rect>
+            <x>470</x>
+            <y>290</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>BD2</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_BD1">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>230</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>BD1</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_BD3">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>290</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>BD3</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_BD4">
+          <property name="geometry">
+           <rect>
+            <x>880</x>
+            <y>290</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>BD4</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_BD2_2">
+          <property name="geometry">
+           <rect>
+            <x>530</x>
+            <y>0</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>EG</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_BD3_2">
+          <property name="geometry">
+           <rect>
+            <x>880</x>
+            <y>0</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>PR</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_BD1_2">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>0</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>FGS</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_BD1_3">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>110</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>TT</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_BD1_4">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>480</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>RVS</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_BD1_5">
+          <property name="geometry">
+           <rect>
+            <x>520</x>
+            <y>480</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>CL1</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_BD1_6">
+          <property name="geometry">
+           <rect>
+            <x>520</x>
+            <y>585</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>CL2</string>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_CL2">
+          <property name="geometry">
+           <rect>
+            <x>370</x>
+            <y>604</y>
+            <width>350</width>
+            <height>85</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_CL3">
+          <property name="geometry">
+           <rect>
+            <x>370</x>
+            <y>710</y>
+            <width>350</width>
+            <height>85</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_BD1_7">
+          <property name="geometry">
+           <rect>
+            <x>520</x>
+            <y>690</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>CL3</string>
+          </property>
+         </widget>
+         <zorder>tv_BD2_Top</zorder>
+         <zorder>tv_TT</zorder>
+         <zorder>tv_PR</zorder>
+         <zorder>tv_FGS</zorder>
+         <zorder>tv_EG</zorder>
+         <zorder>tv_BD1_Top</zorder>
+         <zorder>tv_BD3_Top</zorder>
+         <zorder>tv_BD4_Top</zorder>
+         <zorder>tv_BD1_Bottom</zorder>
+         <zorder>tv_BD3_Bottom</zorder>
+         <zorder>tv_BD4_Bottom</zorder>
+         <zorder>tv_BD2_Bottom</zorder>
+         <zorder>tv_RVS</zorder>
+         <zorder>tv_CL1</zorder>
+         <zorder>label_BD2</zorder>
+         <zorder>label_BD1</zorder>
+         <zorder>label_BD3</zorder>
+         <zorder>label_BD4</zorder>
+         <zorder>label_BD2_2</zorder>
+         <zorder>label_BD3_2</zorder>
+         <zorder>label_BD1_2</zorder>
+         <zorder>label_BD1_3</zorder>
+         <zorder>label_BD1_4</zorder>
+         <zorder>label_BD1_5</zorder>
+         <zorder>label_BD1_6</zorder>
+         <zorder>tv_CL2</zorder>
+         <zorder>tv_CL3</zorder>
+         <zorder>label_BD1_7</zorder>
+        </widget>
+        <widget class="QWidget" name="tab_fp_sq">
+         <attribute name="title">
+          <string>                                                                        FP-SQ                                                                    </string>
+         </attribute>
+         <widget class="QTableView" name="tv_FP1">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>40</y>
+            <width>350</width>
+            <height>205</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_FP2">
+          <property name="geometry">
+           <rect>
+            <x>370</x>
+            <y>40</y>
+            <width>210</width>
+            <height>205</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_FP3">
+          <property name="geometry">
+           <rect>
+            <x>580</x>
+            <y>40</y>
+            <width>210</width>
+            <height>205</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_SQ">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>280</y>
+            <width>350</width>
+            <height>205</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_PS1">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>555</y>
+            <width>350</width>
+            <height>85</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_IBS">
+          <property name="geometry">
+           <rect>
+            <x>370</x>
+            <y>280</y>
+            <width>321</width>
+            <height>114</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableView" name="tv_SG">
+          <property name="geometry">
+           <rect>
+            <x>370</x>
+            <y>480</y>
+            <width>321</width>
+            <height>160</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_FP1">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>20</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>FP1</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_FP2">
+          <property name="geometry">
+           <rect>
+            <x>460</x>
+            <y>20</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>FP2</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_FP3">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>20</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>FP3</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_FP1_2">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>260</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>SQ</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_FP1_3">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>260</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>IBS</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_FP1_4">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>460</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>SG</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_FP1_5">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>535</y>
+            <width>67</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>PS1</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QToolButton" name="m_pcmdReadPV">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Read PV</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>36</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="m_pcmdSendSV">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Send SV</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>36</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="m_pcmdCopyPVtoSV">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>PV -&gt; SV</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>36</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="toolButton_9">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Abs.value</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="toolButton_10">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Adj.value</string>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="geometry">
+         <rect>
+          <x>1130</x>
+          <y>100</y>
+          <width>261</width>
+          <height>741</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Reference Diameter</string>
+        </property>
+        <widget class="QTableView" name="tableView_7">
+         <property name="geometry">
+          <rect>
+           <x>5</x>
+           <y>20</y>
+           <width>251</width>
+           <height>161</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QTableView" name="tableView_9">
+         <property name="geometry">
+          <rect>
+           <x>5</x>
+           <y>180</y>
+           <width>251</width>
+           <height>341</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QTableView" name="tableView_10">
+         <property name="geometry">
+          <rect>
+           <x>5</x>
+           <y>520</y>
+           <width>251</width>
+           <height>201</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="image">
+       <attribute name="title">
+        <string>Image</string>
+       </attribute>
+       <widget class="QComboBox" name="comboBox_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>4</y>
+          <width>70</width>
+          <height>60</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="m_pcmdSendSV_2">
+        <property name="geometry">
+         <rect>
+          <x>145</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Send SV</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>36</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="m_pcmdCopyPVtoSV_2">
+        <property name="geometry">
+         <rect>
+          <x>216</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>PV -&gt; SV</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>36</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="m_pcmdReadPV_2">
+        <property name="geometry">
+         <rect>
+          <x>75</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Read PV</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>36</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="toolButton_11">
+        <property name="geometry">
+         <rect>
+          <x>287</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Adjust</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="toolButton_12">
+        <property name="geometry">
+         <rect>
+          <x>357</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Print</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="toolButton_13">
+        <property name="geometry">
+         <rect>
+          <x>427</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>P.V.</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="toolButton_14">
+        <property name="geometry">
+         <rect>
+          <x>497</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>S.V.</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="toolButton_15">
+        <property name="geometry">
+         <rect>
+          <x>567</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Flower</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="toolButton_16">
+        <property name="geometry">
+         <rect>
+          <x>637</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Zoom in</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="toolButton_17">
+        <property name="geometry">
+         <rect>
+          <x>707</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Zoom out</string>
+        </property>
+       </widget>
+       <widget class="QGraphicsView" name="graphicsView">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>70</y>
+          <width>1641</width>
+          <height>1081</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="pass_schedule">
+       <attribute name="title">
+        <string>Pass Schedule</string>
+       </attribute>
+       <widget class="QToolButton" name="toolButton_18">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>4</y>
+          <width>65</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Calc</string>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>70</y>
+          <width>441</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Forming conditions</string>
+        </property>
+        <widget class="QLabel" name="label_19">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>40</y>
+           <width>171</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Bending-insensitive area</string>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>60</y>
+           <width>236</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <row>
+          <property name="text">
+           <string>BD1</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Default</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Input</string>
+          </property>
+         </column>
+        </widget>
+        <widget class="QLabel" name="label_21">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>150</y>
+           <width>171</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Forming range(%)</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_22">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>150</y>
+           <width>171</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Forming rate(%)</string>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget_3">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>170</y>
+           <width>436</width>
+           <height>143</height>
+          </rect>
+         </property>
+         <row>
+          <property name="text">
+           <string>BD1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>BD2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>BD3</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>BD4</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Default</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Input</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Default</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Input</string>
+          </property>
+         </column>
+        </widget>
+        <widget class="QLabel" name="label_23">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>330</y>
+           <width>171</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Contact angle(deg.)</string>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget_4">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>350</y>
+           <width>236</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <row>
+          <property name="text">
+           <string>RVS</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Default</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Input</string>
+          </property>
+         </column>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>70</y>
+          <width>251</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Pass-line height</string>
+        </property>
+        <widget class="QLabel" name="label_20">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>40</y>
+           <width>171</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Reference</string>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>60</y>
+           <width>206</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Default</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Input</string>
+          </property>
+         </column>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget_5">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>170</y>
+           <width>236</width>
+           <height>173</height>
+          </rect>
+         </property>
+         <row>
+          <property name="text">
+           <string>BD1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>BD2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>BD3</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>BD4</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>RVS</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Default</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Input</string>
+          </property>
+         </column>
+        </widget>
+        <widget class="QLabel" name="label_24">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>150</y>
+           <width>171</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Compensation</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QTableView" name="tableView_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>490</y>
+          <width>1620</width>
+          <height>661</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="setup">
+       <attribute name="title">
+        <string>Setup</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="all_data">
+       <attribute name="title">
+        <string>All data</string>
+       </attribute>
+       <widget class="QTableView" name="tv_allData">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1001</width>
+          <height>1141</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QGroupBox" name="gb_InfoProd">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>120</y>
+         <width>231</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>230</width>
+         <height>151</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>Information of product</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <widget class="QLabel" name="lbl_ProdSize">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>121</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Product size, mm</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_DiamAtSQ">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>93</y>
+          <width>111</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>O.D. at S.Q., mm</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Width">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>125</y>
+          <width>111</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Strip width, mm</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Thick">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>141</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Wall thickness, mm</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_ProdSizeValue">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>30</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Text</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_ThickValue">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>60</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Text</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_DiamAtSQValue">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>90</y>
+          <width>81</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Text</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_WidthValue">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>125</y>
+          <width>81</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Text</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="gb_FormCond">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>280</y>
+         <width>230</width>
+         <height>261</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>230</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="title">
+        <string>Forming conditions</string>
+       </property>
+       <widget class="QTabWidget" name="tabWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>23</y>
+          <width>230</width>
+          <height>241</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>230</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="w_BD">
+         <attribute name="title">
+          <string>BD</string>
+         </attribute>
+         <widget class="QLabel" name="lbl_BD3_2">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>100</y>
+            <width>81</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>BD3</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="lbl_BD4_2">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>132</y>
+            <width>81</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>BD4</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="lbl_BD2_2">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>69</y>
+            <width>81</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>BD2</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="lbl_BD1_2">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>37</y>
+            <width>81</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>BD1</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="w_RVS">
+         <attribute name="title">
+          <string>RVS</string>
+         </attribute>
+         <widget class="QLabel" name="lbl_RVS_2">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>40</y>
+            <width>81</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>RVS</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="gb_PassLineHeightControl">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>550</y>
+         <width>230</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>230</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="title">
+        <string>Pass-line height control</string>
+       </property>
+       <widget class="QLabel" name="lbl_Refer">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>81</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Reference</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lb_Compens">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>62</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Compensation</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_BD2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>120</y>
+          <width>81</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>BD2</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_BD1">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>90</y>
+          <width>81</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>BD1</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_BD4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>185</y>
+          <width>81</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>BD4</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_BD3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>153</y>
+          <width>81</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>BD3</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_RVS">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>90</y>
+          <width>81</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>RVS</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="lbl_debug">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>10</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Debug mode</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
